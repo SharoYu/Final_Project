@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sharoyu.fianl_app.order_list">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/d_title"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.21"
+            android:text="品項"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/d_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="數量"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/d_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="小計"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/d_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.59"
+            android:text="備註"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
